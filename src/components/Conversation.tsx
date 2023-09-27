@@ -21,7 +21,7 @@ const Conversation = ({
   //   Object.assign(config, { audioDeviceConfig })
   // );
   const { status, start, stop, analyserNode, transcripts } = useConversation({
-    backendUrl: "https://heartfelt-backend-cli-e133eca3962d.herokuapp.com/conversation",
+    backendUrl: "wss://heartfelt-backend-cli-e133eca3962d.herokuapp.com/conversation",
     subscribeTranscript: false,
     audioDeviceConfig
   });
