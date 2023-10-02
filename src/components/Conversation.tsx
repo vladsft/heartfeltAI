@@ -21,7 +21,7 @@ const Conversation = ({
   //   Object.assign(config, { audioDeviceConfig })
   // );
   const { status, start, stop, analyserNode, transcripts } = useConversation({
-    backendUrl: "wss://f20e-92-40-168-121.ngrok-free.app/conversation",
+    backendUrl: "ws://localhost:3000/conversation",
     subscribeTranscript: true,
     audioDeviceConfig
   });
