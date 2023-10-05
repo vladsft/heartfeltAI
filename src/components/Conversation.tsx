@@ -21,7 +21,7 @@ const Conversation = ({
   //   Object.assign(config, { audioDeviceConfig })
   // );
   const { status, start, stop, analyserNode, transcripts } = useConversation({
-    backendUrl: "wss://dolphin-app-m4699.ondigitalocean.app",
+    backendUrl: "wss://dolphin-app-m4699.ondigitalocean.app/conversation",
     subscribeTranscript: true,
     audioDeviceConfig
   });
